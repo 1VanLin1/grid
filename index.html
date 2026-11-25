@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockups Agency — Catalog of Free Mockups</title>
+    <meta name="description" content="Free creative mockups, concepts, and gallery photos for designers.">
+    <meta name="keywords" content="mockups, free mockups, design, cup mockup, package mockup, gallery">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo" aria-label="На главную">
+                <img src="img/logo.svg" alt="Логотип Mockup" class="logo__img" width="32" height="32">
+            </a>
+
+            <nav class="nav" aria-label="Основное меню">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#training" class="nav__link">Training</a></li>
+                    <li><a href="#promotions" class="nav__link">Promotions</a></li>
+                    <li><a href="#contacts" class="nav__link">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__contacts">
+                <a href="tel:+12345678910" class="header__contact-link">+1 (234) 567-89-10</a>
+                <a href="mailto:support@mockup.agency" class="header__contact-link">support@mockup.agency</a>
+            </div>
+
+            <button class="burger-btn" aria-label="Открыть меню" onclick="document.querySelector('.mobile-menu').classList.toggle('active')">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu">
+            <button class="mobile-menu__close" aria-label="Закрыть меню" onclick="document.querySelector('.mobile-menu').classList.remove('active')">
+                <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.5568 27.1709L18.1281 20.7422L11.5929 27.2774C11.2463 27.624 10.7784 27.821 10.2921 27.825C9.80588 27.829 9.34114 27.6397 9.00015 27.2987C8.65915 26.9577 8.46982 26.4929 8.47381 26.0067C8.47781 25.5204 8.6748 25.0525 9.02144 24.7059L15.5566 18.1707L9.12792 11.742C8.78692 11.401 8.5976 10.9363 8.60159 10.45C8.60558 9.9638 8.80257 9.49589 9.14922 9.14924C9.49587 8.8026 9.96378 8.60561 10.45 8.60162C10.9363 8.59762 11.401 8.78695 11.742 9.12795L18.1707 15.5566L24.7059 9.02147C25.0525 8.67482 25.5204 8.47783 26.0067 8.47384C26.4929 8.46984 26.9576 8.65917 27.2986 9.00017C27.6396 9.34117 27.829 9.80591 27.825 10.2921C27.821 10.7784 27.624 11.2463 27.2773 11.5929L20.7422 18.1281L27.1709 24.5568C27.5119 24.8978 27.7012 25.3625 27.6972 25.8488C27.6932 26.335 27.4962 26.8029 27.1496 27.1496C26.8029 27.4962 26.335 27.6932 25.8488 27.6972C25.3625 27.7012 24.8978 27.5119 24.5568 27.1709Z" fill="#2A2524"/>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#training" class="nav__link">Training</a></li>
+                <li><a href="#promotions" class="nav__link">Promotions</a></li>
+                <li><a href="#contacts" class="nav__link">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Mockups, creative, concepts that make every project stand out</h1>
+                    <p class="hero__subtitle">Bringing ideas to life through design.</p>
+                </div>
+                <div class="hero__image-wrapper">
+                    <img src="img/banner.png" alt="Coffee cup mockup" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <h2 class="section-title">Catalog of free mockups.</h2>
+                <div class="catalog__container">
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Cup</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Cup">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo1.png" alt="Project/ Cup">
+                        <p class="card__description">Free Paper Coffee Cup Mockup</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Tube</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Tube">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo2.png" alt="Project/ Tube">
+                        <p class="card__description">Free Cosmetic Bottle With Pump And Paper Box Mockups On Stone Front View</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Paper Bag</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Paper Bag">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo3.png" alt="Project/ Paper Bag">
+                        <p class="card__description">Free Paper Bag Mockup V2 Isometric</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Package</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Package">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo4.png" alt="Project/ Package">
+                        <p class="card__description">Free Box Mockup V4 Isometric</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Package</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Package">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo5.png" alt="Project/ Package">
+                        <p class="card__description">Free Postal Package Mockup On Stone Front View</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__header">
+                            <h3 class="card__title">Project/ Pack Mockup On Stone Front View</h3>
+                            <button class="card__btn" aria-label="Перейти к Project/ Pack">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 13L13 1M13 1H3M13 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <img class="card__img" src="img/photo6.png" alt="Project/ Pack">
+                        <p class="card__description">Free Metallic Package Mockup V1 Free Cosmetic Bottle With Pump And Paper Box Mockups</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="section-title">Gallery Mockup Photos &amp; Images.</h2>
+                <div class="gallery__container">
+                    <img class="gallery__img gallery__img--1" src="img/image1.png" alt="картинка 1">
+                    <img class="gallery__img gallery__img--2" src="img/image2.png" alt="картинка 2">
+                    <img class="gallery__img gallery__img--3" src="img/image3.png" alt="картинка 3">
+                    <img class="gallery__img gallery__img--4" src="img/image4.png" alt="картинка 4">
+                    <img class="gallery__img gallery__img--5" src="img/image5.png" alt="картинка 5">
+                    <img class="gallery__img gallery__img--6" src="img/image7.png" alt="картинка 6">
+                    <img class="gallery__img gallery__img--7" src="img/image8.png" alt="картинка 7">
+                    <img class="gallery__img gallery__img--8" src="img/image9.png" alt="картинка 8">
+                    <img class="gallery__img gallery__img--9" src="img/image6.png" alt="картинка 9">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__info">
+                    <a href="#" class="logo" aria-label="На главную">
+                        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <img src="img/logo.svg" alt="Логотип Mockup" class="logo__img" width="32" height="32">
+                        </svg>
+                    </a>
+                    <div class="footer__contacts">
+                        <a href="tel:+12345678910" class="footer__link">+1 (234) 567-89-10</a>
+                        <a href="mailto:support@mockup.agency" class="footer__link">support@mockup.agency</a>
+                    </div>
+                </div>
+
+                <div class="footer__links-block">
+                    <h3 class="footer__heading">Quick Links</h3>
+                    <ul class="footer__nav-grid">
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#promotions" class="footer__link">Promotions</a></li>
+                        <li><a href="#training" class="footer__link">Training</a></li>
+                        <li><a href="#contacts" class="footer__link">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__subscribe">
+                    <h3 class="footer__heading">Subscribe</h3>
+                    <form class="subscribe-form" action="#" method="post">
+                        <input type="email" class="subscribe-form__input" placeholder="Get product updates" required aria-label="Email для подписки">
+                        <button type="submit" class="subscribe-form__btn" aria-label="Подписаться">
+                            →
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <hr class="footer__divider">
+
+            <div class="footer__bottom">
+                <div class="footer__socials">
+                    <a href="#" class="social-link" aria-label="VK">
+                        <img src="img/vk.svg" alt="Логотип Vkontakte" class="logo__img" width="32" height="32">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Messenger">
+                        <img src="img/message.svg" alt="Логотип Messenger" class="logo__img" width="38" height="38">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Viber">
+                        <img src="img/viber.svg" alt="Логотип Viber" class="logo__img" width="40" height="40">
+                    </a>
+                </div>
+                <div class="footer__product">
+                    <b><span>A product of</span></b>
+                    <img src="img/logo.svg" alt="Логотип Mockup" class="logo__img" width="20" height="20">
+                </div>
+                <p class="footer__copyright">&copy; 2026 Mockup. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
